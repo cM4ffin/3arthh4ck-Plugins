@@ -18,8 +18,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Component implements Globals {
-    public static final Identifier ARROW = new Identifier("textures/future/arrow.png");
-    public static final Identifier GEAR = new Identifier("textures/future/gear.png");
+    public static final Identifier ARROW = Identifier.of("futuregui", "textures/future/arrow.png");
+    public static final Identifier GEAR = Identifier.of("futuregui","textures/future/gear.png");
 
     private final String name;
     private int x;
